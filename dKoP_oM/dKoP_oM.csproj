@@ -22,7 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="HealthAndSafety\" />
     <Folder Include="Geometry\" />
     <Folder Include="Interfaces\" />
     <Folder Include="ProductInformation\" />
