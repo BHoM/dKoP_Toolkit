@@ -27,7 +27,6 @@
     <Folder Include="Interfaces\" />
     <Folder Include="ProductInformation\" />
     <Folder Include="Perfomance\" />
-    <Folder Include="QualityAndCertification\" />
     <Folder Include="Schemas\" />
   </ItemGroup>
 
