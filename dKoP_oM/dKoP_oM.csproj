@@ -21,6 +21,16 @@
     </Reference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="HealthAndSafety\" />
+    <Folder Include="Geometry\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="ProductInformation\" />
+    <Folder Include="Perfomance\" />
+    <Folder Include="QualityAndCertification\" />
+    <Folder Include="Schemas\" />
+  </ItemGroup>
+
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <Exec Command="xcopy &quot;$(TargetDir)$(TargetFileName)&quot;  &quot;C:\ProgramData\BHoM\Assemblies&quot; /Y" />
   </Target>
