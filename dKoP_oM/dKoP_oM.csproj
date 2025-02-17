@@ -29,7 +29,6 @@
   <ItemGroup>
     <Folder Include="Geometry\" />
     <Folder Include="Interfaces\" />
-    <Folder Include="ProductInformation\" />
     <Folder Include="Schemas\" />
   </ItemGroup>
 
