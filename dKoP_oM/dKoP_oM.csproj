@@ -19,6 +19,11 @@
       <Private>false</Private>
       <SpecificVersion>false</SpecificVersion>
     </Reference>
+    <Reference Include="Geometry_oM">
+      <HintPath>$(ProgramData)\BHoM\Assemblies\Geometry_oM.dll</HintPath>
+		<Private>false</Private>
+		<SpecificVersion>false</SpecificVersion>
+    </Reference>
 	<Reference Include="Quantities_oM">
 		<HintPath>$(ProgramData)\BHoM\Assemblies\Quantities_oM.dll</HintPath>
 		<Private>false</Private>
@@ -27,7 +32,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Geometry\" />
     <Folder Include="Schemas\" />
   </ItemGroup>
 
