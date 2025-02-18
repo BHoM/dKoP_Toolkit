@@ -4,7 +4,7 @@ using System.Security.Principal;
 using System.Text;
 using BH.oM.Geometry;
 
-namespace BH.oM.dKoP.Geometry
+namespace BH.oM.dKoP
 {
     public class Staircase : IFloorAndRoofOpening, IdKopObject
     {

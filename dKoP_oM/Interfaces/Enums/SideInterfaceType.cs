@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BH.oM.dKoP.Interfaces
+namespace BH.oM.dKoP
 {
     public enum SideInterfaceType
     {

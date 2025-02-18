@@ -4,7 +4,7 @@ using System.Reflection;
 using System.Text;
 using BH.oM.Quantities.Attributes;
 
-namespace BH.oM.dKoP.Perfomance
+namespace BH.oM.dKoP
 {
     public class Fire : IdKopObject
     {

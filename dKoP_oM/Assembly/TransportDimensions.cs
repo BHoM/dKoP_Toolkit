@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using BH.oM.Quantities.Attributes;
 
-namespace BH.oM.dKoP.Assembly
+namespace BH.oM.dKoP
 {
     public class TransportDimensions : IdKopObject
     {

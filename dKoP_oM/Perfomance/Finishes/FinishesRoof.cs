@@ -26,7 +26,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace BH.oM.dKoP.Perfomance
+namespace BH.oM.dKoP
 {
     [Description("")]
     public class FinishesRoof : IdKopObject

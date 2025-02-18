@@ -5,7 +5,7 @@ using System.Security.Principal;
 using System.Text;
 using System.Threading;
 
-namespace BH.oM.dKoP.Geometry
+namespace BH.oM.dKoP
 {
     public class PitchedRoofDimensions : IdKopObject
     {

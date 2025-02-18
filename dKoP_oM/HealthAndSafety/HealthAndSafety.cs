@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BH.oM.dKoP.HealthAndSafety
+namespace BH.oM.dKoP
 {
     public class HealthAndSafety : IdKopObject
     {
