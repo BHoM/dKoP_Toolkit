@@ -20,6 +20,11 @@ namespace BH.oM.dKoP.Geometry
 
         bool ConfirmationGeometryRequirementsAreMet { get; set; }
 
+        DoorAndWindowFire Fire { get; set; }
+
+        DoorAndWindowAcoustics AcousticPerformance { get; set; }
+
+        DoorAndWindowThermalPerformance ThermalPerformance { get; set; }
 
         /***************************************************/
     }
