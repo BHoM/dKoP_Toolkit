@@ -11,13 +11,13 @@ namespace BH.oM.dKoP
         /**** Properties                                ****/
         /***************************************************/
 
-        public virtual FloorAndRoofSideInterface SideA { get; set; }
+        public virtual FloorAndRoofSideInterface SideA { get; set; } = new FloorAndRoofSideInterface();
 
-        public virtual FloorAndRoofSideInterface SideB { get; set; }
+        public virtual FloorAndRoofSideInterface SideB { get; set; } = new FloorAndRoofSideInterface();
 
-        public virtual FloorAndRoofSideInterface SideC { get; set; }
+        public virtual FloorAndRoofSideInterface SideC { get; set; } = new FloorAndRoofSideInterface();
 
-        public virtual FloorAndRoofSideInterface SideD { get; set; }
+        public virtual FloorAndRoofSideInterface SideD { get; set; } = new FloorAndRoofSideInterface();
 
         /***************************************************/
     }

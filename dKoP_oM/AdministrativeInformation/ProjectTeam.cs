@@ -11,13 +11,13 @@ namespace BH.oM.dKoP
         /**** Properties                                ****/
         /***************************************************/
 
-        public virtual ContactDetails Client { get; set; }
+        public virtual ContactDetails Client { get; set; } = new ContactDetails();
 
-        public virtual ContactDetails Architect { get; set; }
+        public virtual ContactDetails Architect { get; set; } = new ContactDetails();
 
-        public virtual ContactDetails StructuralEngineer { get; set; }
+        public virtual ContactDetails StructuralEngineer { get; set; } = new ContactDetails();
 
-        public virtual ContactDetails SeriveEngineer { get; set; }
+        public virtual ContactDetails SeriveEngineer { get; set; } = new ContactDetails();
 
         /***************************************************/
     }

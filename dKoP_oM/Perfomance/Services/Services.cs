@@ -11,19 +11,19 @@ namespace BH.oM.dKoP
         /**** Properties                                ****/
         /***************************************************/
 
-        public virtual Electrical Electrical { get; set; }
+        public virtual Electrical Electrical { get; set; } = new Electrical();
 
-        public virtual Data Data { get; set; }
+        public virtual Data Data { get; set; } = new Data();
 
-        public virtual Heating Heating { get; set; }
+        public virtual Heating Heating { get; set; } = new Heating();
 
-        public virtual Water Water { get; set; }
+        public virtual Water Water { get; set; } = new Water();
 
-        public virtual Drainage Drainage { get; set; }
+        public virtual Drainage Drainage { get; set; } = new Drainage();
 
-        public virtual Gas Gas { get; set; }
+        public virtual Gas Gas { get; set; } = new Gas();
 
-        public virtual Ventilation Ventilation { get; set; }
+        public virtual Ventilation Ventilation { get; set; } = new Ventilation();
 
         public virtual bool ServicesIntegrationConfirmation { get; set; }
 

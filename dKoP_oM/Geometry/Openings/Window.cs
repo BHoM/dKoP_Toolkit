@@ -16,23 +16,23 @@ namespace BH.oM.dKoP
 
         public virtual double StructuralHeight { get; set; }
 
-        public virtual ParameterPoint PositionAlongWall { get; set; }
+        public virtual ParameterPoint PositionAlongWall { get; set; } = new ParameterPoint();
 
         public virtual bool ConfirmationGeometryRequirementsAreMet { get; set; }
 
-        public virtual DoorAndWindowFire Fire { get; set; }
+        public virtual DoorAndWindowFire Fire { get; set; } = new DoorAndWindowFire();
 
-        public virtual DoorAndWindowAcoustics AcousticPerformance { get; set; }
+        public virtual DoorAndWindowAcoustics AcousticPerformance { get; set; } = new DoorAndWindowAcoustics();
 
-        public virtual DoorAndWindowThermalPerformance ThermalPerformance { get; set; }
+        public virtual DoorAndWindowThermalPerformance ThermalPerformance { get; set; } = new DoorAndWindowThermalPerformance();
 
         public virtual WindowStyle WindowStyle { get; set; }
 
         public virtual WindowOpeningType OpeningType { get; set; }
 
-        public virtual OpeningPartFinish InsideFinish { get; set; }
+        public virtual OpeningPartFinish InsideFinish { get; set; } = new OpeningPartFinish();
 
-        public virtual OpeningPartFinish OutsideFinish { get; set; }
+        public virtual OpeningPartFinish OutsideFinish { get; set; } = new OpeningPartFinish();
         
         public virtual string WindowFurniture { get; set; }
         

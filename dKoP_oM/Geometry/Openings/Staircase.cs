@@ -16,7 +16,7 @@ namespace BH.oM.dKoP
 
         public virtual double ClearLength { get; set; }
 
-        public virtual ParameterPoint SettingOut { get; set; }
+        public virtual ParameterPoint SettingOut { get; set; } = new ParameterPoint();
 
         /***************************************************/
     }

@@ -10,9 +10,9 @@ namespace BH.oM.dKoP
         /**** Properties                                ****/
         /***************************************************/
 
-        public virtual Buildup Buildup { get; set; }
+        public virtual Buildup Buildup { get; set; } = new Buildup();
 
-        public virtual Documentation Documentation { get; set; }
+        public virtual Documentation Documentation { get; set; } = new Documentation();
 
         public virtual string OtherUSP { get; set; }
 

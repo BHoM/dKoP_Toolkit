@@ -13,9 +13,9 @@ namespace BH.oM.dKoP
         /**** Properties                                ****/
         /***************************************************/
 
-        public virtual OpeningPartFinish Exterior { get; set; }
+        public virtual OpeningPartFinish Exterior { get; set; } = new OpeningPartFinish();
 
-        public virtual OpeningPartFinish Interior { get; set; }
+        public virtual OpeningPartFinish Interior { get; set; } = new OpeningPartFinish();
 
         /***************************************************/
     }

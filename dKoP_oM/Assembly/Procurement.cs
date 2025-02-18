@@ -12,7 +12,7 @@ namespace BH.oM.dKoP
 
         public virtual double LeadTime { get; set; }
 
-        public virtual Cost Cost { get; set; }
+        public virtual Cost Cost { get; set; } = new Cost();
 
         public virtual int MinimumOrder { get; set; }
 

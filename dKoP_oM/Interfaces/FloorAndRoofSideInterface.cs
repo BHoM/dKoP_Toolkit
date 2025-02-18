@@ -13,7 +13,7 @@ namespace BH.oM.dKoP
 
         public virtual SideInterfaceType InterfaceType { get; set; } = SideInterfaceType.Unknown;
 
-        public virtual SideLoadingData LoadingData { get; set; }
+        public virtual SideLoadingData LoadingData { get; set; } = new SideLoadingData();
 
         /***************************************************/
     }

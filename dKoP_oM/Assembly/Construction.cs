@@ -14,11 +14,11 @@ namespace BH.oM.dKoP
         [Mass]
         public virtual double Weight { get; set; }
 
-        public virtual LiftingPoints LiftingPoints { get; set; }
+        public virtual LiftingPoints LiftingPoints { get; set; } = new LiftingPoints();
 
-        public virtual TemporaryWorks TemporaryWorks { get; set; }
+        public virtual TemporaryWorks TemporaryWorks { get; set; } = new TemporaryWorks();
 
-        public virtual WeatherProtection WeatherProtection { get; set; }
+        public virtual WeatherProtection WeatherProtection { get; set; } = new WeatherProtection();
 
         /***************************************************/
     }

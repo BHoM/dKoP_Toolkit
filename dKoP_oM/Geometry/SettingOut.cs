@@ -14,9 +14,9 @@ namespace BH.oM.dKoP
 
         public virtual string BuildingLevel { get; set; }
 
-        public virtual Point ReferencePoint { get; set; }
+        public virtual Point ReferencePoint { get; set; } = new Point();
 
-        public virtual Point OrientationPoint { get; set; }
+        public virtual Point OrientationPoint { get; set; } = new Point();
 
         /***************************************************/
     }

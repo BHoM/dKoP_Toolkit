@@ -43,6 +43,7 @@ namespace BH.oM.dKoP
         public virtual string Guttering { get; set; }
 
         public virtual string FacsiaAndSoffitPanels { get; set; }
+
         /***************************************************/
 
     }

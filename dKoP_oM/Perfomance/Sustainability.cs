@@ -15,7 +15,7 @@ namespace BH.oM.dKoP
 
         public virtual string EPDCertification { get; set; }
 
-        public virtual EmbodiedCarbon EmbodiedCarbon { get; set; }
+        public virtual EmbodiedCarbon EmbodiedCarbon { get; set; } = new EmbodiedCarbon();
 
         public virtual string SustainableSourcingCertification { get; set; }
 

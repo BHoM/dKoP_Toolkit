@@ -11,19 +11,19 @@ namespace BH.oM.dKoP
         /**** Properties                                ****/
         /***************************************************/
 
-        public virtual Overview Overview { get; set; }
+        public virtual Overview Overview { get; set; } = new Overview();
 
-        public virtual CrossReference CrossReference { get; set; }
+        public virtual CrossReference CrossReference { get; set; } = new CrossReference();
 
-        public virtual ProjectIdentification ProjectIdentification { get; set; }
+        public virtual ProjectIdentification ProjectIdentification { get; set; } = new ProjectIdentification();
 
-        public virtual ProjectTeam ProjectTeam { get; set; }
+        public virtual ProjectTeam ProjectTeam { get; set; } = new ProjectTeam();
 
-        public virtual PartIdentification PartIdentification { get; set; }
+        public virtual PartIdentification PartIdentification { get; set; } = new PartIdentification();
 
-        public virtual ProductDetails ProductDetails { get; set; }
+        public virtual ProductDetails ProductDetails { get; set; } = new ProductDetails();
 
-        public virtual ManufacturerDetails ManufacturerDetails { get; set; }
+        public virtual ManufacturerDetails ManufacturerDetails { get; set; } = new ManufacturerDetails();
 
         /***************************************************/
     }

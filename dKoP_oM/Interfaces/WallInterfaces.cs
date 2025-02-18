@@ -11,11 +11,11 @@ namespace BH.oM.dKoP
         /**** Properties                                ****/
         /***************************************************/
 
-        public virtual WallBaseInterface BaseInterface { get; set; }
+        public virtual WallBaseInterface BaseInterface { get; set; } = new WallBaseInterface();
 
-        public virtual WallSideInterface SideInterface { get; set; }
+        public virtual WallSideInterface SideInterface { get; set; } = new WallSideInterface();
 
-        public virtual WallTopInterface TopInterface { get; set; }
+        public virtual WallTopInterface TopInterface { get; set; } = new WallTopInterface();
 
 
         /***************************************************/

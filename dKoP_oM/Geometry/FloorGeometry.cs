@@ -11,11 +11,11 @@ namespace BH.oM.dKoP
         /**** Properties                                ****/
         /***************************************************/
 
-        public virtual SettingOut SettingOut { get; set; }
+        public virtual SettingOut SettingOut { get; set; } = new SettingOut();
 
-        public virtual FloorDimensions ExternalDimensions { get; set; }
+        public virtual FloorDimensions ExternalDimensions { get; set; } = new FloorDimensions();
 
-        public virtual List<IFloorAndRoofOpening> Voids { get; set; }
+        public virtual List<IFloorAndRoofOpening> Voids { get; set; } = new List<IFloorAndRoofOpening>();
 
         /***************************************************/
     }

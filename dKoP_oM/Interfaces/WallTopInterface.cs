@@ -13,7 +13,7 @@ namespace BH.oM.dKoP
 
         public virtual TopInterfaceType InterfaceType { get; set; } = TopInterfaceType.Unknown;
 
-        public virtual TopLoadingData LoadingData { get; set; }
+        public virtual TopLoadingData LoadingData { get; set; } = new TopLoadingData();
         /***************************************************/
     }
 }

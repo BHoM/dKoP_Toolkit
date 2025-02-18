@@ -16,7 +16,7 @@ namespace BH.oM.dKoP
 
         public virtual int NumberPerPallet { get; set; }
 
-        public virtual TransportDimensions TransportDimensions { get; set; }
+        public virtual TransportDimensions TransportDimensions { get; set; } = new TransportDimensions();
 
         public virtual bool Stackable { get; set; }
 
