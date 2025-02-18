@@ -6,15 +6,17 @@ using BH.oM.Quantities.Attributes;
 
 namespace BH.oM.dKoP
 {
-    public class Fire : IdKopObject
+    public class FireResistance : IdKopObject
     {
         /***************************************************/
         /**** Properties                                ****/
         /***************************************************/
 
-        public virtual FireResistance FireResistance { get; set; } = new FireResistance();
+        //TODO: Add quantity
+        public virtual FireResistancePeriod ResistanceClasification { get; set; } = FireResistancePeriod.REI30;
 
-        public virtual SurfaceSpreadOfFlame SurfaceSpreadOfFlame { get; set; } = new SurfaceSpreadOfFlame();
+        public virtual string Documentation { get; set; } = "";
+
         /***************************************************/
     }
 }
