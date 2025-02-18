@@ -2,20 +2,21 @@
 using System.Collections.Generic;
 using System.Security.Principal;
 using System.Text;
+using BH.oM.Geometry;
 
 namespace BH.oM.dKoP.Geometry
 {
-    public class WallGeometry : IdKopObject
+    public interface IFloorAndRoofOpening : IdKopObject
     {
         /***************************************************/
         /**** Properties                                ****/
         /***************************************************/
 
-        public virtual SettingOut SettingOut { get; set; }
+        double ClearWidth { get; set; }
 
-        public virtual WallDimensions ExternalDimensions { get; set; }
+        double ClearLength { get; set; }
 
-        public virtual List<IWallOpening> Openings { get; set; }
+        ParameterPoint SettingOut { get; set; }
 
         /***************************************************/
     }

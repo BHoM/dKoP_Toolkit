@@ -6,7 +6,7 @@ using BH.oM.Geometry;
 
 namespace BH.oM.dKoP.Geometry
 {
-    public class WallSettingOut : IdKopObject
+    public class SettingOut : IdKopObject
     {
         /***************************************************/
         /**** Properties                                ****/

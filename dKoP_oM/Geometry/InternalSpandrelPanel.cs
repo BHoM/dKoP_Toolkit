@@ -5,17 +5,13 @@ using System.Text;
 
 namespace BH.oM.dKoP.Geometry
 {
-    public class WallGeometry : IdKopObject
+    public class InternalSpandrelPanel : IdKopObject
     {
         /***************************************************/
         /**** Properties                                ****/
         /***************************************************/
 
-        public virtual SettingOut SettingOut { get; set; }
-
-        public virtual WallDimensions ExternalDimensions { get; set; }
-
-        public virtual List<IWallOpening> Openings { get; set; }
+        public virtual double Thickness { get; set; }
 
         /***************************************************/
     }

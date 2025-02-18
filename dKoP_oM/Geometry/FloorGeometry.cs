@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BH.oM.dKoP.Geometry
 {
-    public class WallGeometry : IdKopObject
+    public class FloorGeometry : IdKopObject
     {
         /***************************************************/
         /**** Properties                                ****/
@@ -13,9 +13,9 @@ namespace BH.oM.dKoP.Geometry
 
         public virtual SettingOut SettingOut { get; set; }
 
-        public virtual WallDimensions ExternalDimensions { get; set; }
+        public virtual FloorDimensions ExternalDimensions { get; set; }
 
-        public virtual List<IWallOpening> Openings { get; set; }
+        public virtual List<IFloorAndRoofOpening> Voids { get; set; }
 
         /***************************************************/
     }
