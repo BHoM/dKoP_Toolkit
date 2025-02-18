@@ -4,13 +4,15 @@ using System.Text;
 
 namespace BH.oM.dKoP
 {
-    public class AcousticsWallAndRoof
+    public class AcousticsFloor
     {
         /***************************************************/
         /**** Properties                                ****/
         /***************************************************/
 
         public virtual AirborneSoundInsulation AirborneSoundInsulation { get; set; } = new AirborneSoundInsulation();
+
+        public virtual ImpactSoundInsulation ImpactSoundInsulation { get; set; } = new ImpactSoundInsulation();
 
         /***************************************************/
     }
