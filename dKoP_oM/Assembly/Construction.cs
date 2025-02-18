@@ -6,15 +6,20 @@ using BH.oM.Quantities.Attributes;
 
 namespace BH.oM.dKoP.Assembly
 {
-    public class WeatherProtection : IdKopObject
+    public class Construction : IdKopObject
     {
         /***************************************************/
         /**** Properties                                ****/
         /***************************************************/
 
-        public virtual bool Integral { get; set; }
+        [Mass]
+        public virtual double Weight { get; set; }
 
-        public virtual bool RequiredBeforeEnclosedInBuilding { get; set; }
+        public virtual LiftingPoints LiftingPoints { get; set; }
+
+        public virtual TemporaryWorks TemporaryWorks { get; set; }
+
+        public virtual WeatherProtection WeatherProtection { get; set; }
 
         /***************************************************/
     }
