@@ -19,9 +19,19 @@
 
   <ItemGroup>
     <Reference Include="BHoM">
-      <HintPath>C:\ProgramData\BHoM\Assemblies\BHoM.dll</HintPath>
+      <HintPath>$(ProgramData)\BHoM\Assemblies\BHoM.dll</HintPath>
       <Private>false</Private>
       <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="BHoM_Engine">
+      <HintPath>$(ProgramData)\BHoM\Assemblies\BHoM_Engine.dll</HintPath>
+		<Private>false</Private>
+		<SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="Quantities_oM">
+      <HintPath>$(ProgramData)\BHoM\Assemblies\Quantities_oM.dll</HintPath>
+		<Private>false</Private>
+		<SpecificVersion>false</SpecificVersion>
     </Reference>
   </ItemGroup>
 
@@ -29,11 +39,10 @@
     <Folder Include="Compute\" />
     <Folder Include="Create\" />
     <Folder Include="Modify\" />
-    <Folder Include="Query\" />
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="xcopy &quot;$(TargetDir)$(TargetFileName)&quot;  &quot;C:\ProgramData\BHoM\Assemblies&quot; /Y" />
+    <Exec Command="xcopy &quot;$(TargetDir)$(TargetFileName)&quot;  &quot;$(ProgramData)\BHoM\Assemblies&quot; /Y" />
   </Target>
 
 </Project>
