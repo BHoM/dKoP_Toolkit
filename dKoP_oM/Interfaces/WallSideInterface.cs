@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BH.oM.dKoP
 {
-    public class FloorAndRoofSideInterface : IdKopObject
+    public class WallSideInterface : IdKopObject
     {
         /***************************************************/
         /**** Properties                                ****/
