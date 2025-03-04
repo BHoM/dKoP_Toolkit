@@ -15,7 +15,7 @@ namespace BH.oM.dKoP
 
         public virtual FloorDimensions ExternalDimensions { get; set; } = new FloorDimensions();
 
-        public virtual List<IFloorAndRoofOpening> Voids { get; set; } = new List<IFloorAndRoofOpening>();
+        public virtual List<Staircase> Staircases { get; set; } = new List<Staircase>();
 
         /***************************************************/
     }

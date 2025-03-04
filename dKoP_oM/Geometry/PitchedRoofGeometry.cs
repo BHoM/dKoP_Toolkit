@@ -15,7 +15,7 @@ namespace BH.oM.dKoP
 
         public virtual PitchedRoofDimensions ExternalDimensions { get; set; } = new PitchedRoofDimensions();
 
-        public virtual List<IFloorAndRoofOpening> Voids { get; set; } = new List<IFloorAndRoofOpening>();
+        public virtual List<LoftHatchOpening> LoftHatchOpening { get; set; } = new List<LoftHatchOpening>();
 
         /***************************************************/
     }

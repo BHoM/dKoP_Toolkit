@@ -15,7 +15,9 @@ namespace BH.oM.dKoP
 
         public virtual WallDimensions ExternalDimensions { get; set; } = new WallDimensions();
 
-        public virtual List<IWallOpening> Openings { get; set; } = new List<IWallOpening>();
+        public virtual List<Door> Doors { get; set; } = new List<Door>();
+
+        public virtual List<Window> Windows { get; set; } = new List<Window>();
 
         /***************************************************/
     }

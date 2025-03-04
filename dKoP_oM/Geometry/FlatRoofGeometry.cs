@@ -15,7 +15,7 @@ namespace BH.oM.dKoP
 
         public virtual FlatRoofDimensions ExternalDimensions { get; set; } = new FlatRoofDimensions();
 
-        public virtual List<IFloorAndRoofOpening> Voids { get; set; } = new List<IFloorAndRoofOpening>();
+        public virtual List<LoftHatchOpening> LoftHatchOpenings { get; set; } = new List<LoftHatchOpening>();
 
         /***************************************************/
     }
