@@ -1,0 +1,18 @@
+{
+    "$id": "https://github.com/BHoM/dKoP_Toolkit/blob/TestSchema/.JsonSchema/Geometry/Line",
+    "title": "Line",
+    "type": "object",
+    "description": "Line: A straight segment in space defining the shortest distance between two points in three-dimensional Euclidean geometry.\nThe Vector from Start to End defines the Line direction, which can be important for some applications.",
+    "properties": {
+        "Start": {
+            "$ref": "https://github.com/BHoM/dKoP_Toolkit/blob/TestSchema/.JsonSchema/Geometry/Point"
+        },
+        "End": {
+            "$ref": "https://github.com/BHoM/dKoP_Toolkit/blob/TestSchema/.JsonSchema/Geometry/Point"
+        },
+        "Infinite": {
+            "type": "boolean",
+            "description": "Defines the Line as a ray of infinite extents in both directions"
+        }
+    }
+}
