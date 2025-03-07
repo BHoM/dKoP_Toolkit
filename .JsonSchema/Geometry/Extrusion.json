@@ -13,6 +13,14 @@
     "Capped" : {
       "type" : "boolean",
       "description" : "Defines the Extrusion as closed and therfore a solid volume."
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["Curve", "Direction", "Capped"],
+  "additionalProperties" : false
 }

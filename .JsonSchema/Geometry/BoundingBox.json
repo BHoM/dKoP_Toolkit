@@ -9,6 +9,14 @@
     },
     "Max" : {
       "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Point.json"
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["Min", "Max"],
+  "additionalProperties" : false
 }

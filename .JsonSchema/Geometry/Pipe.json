@@ -14,6 +14,14 @@
     "Capped" : {
       "type" : "boolean",
       "description" : "Defines the Pipe as closed and therfore a solid volume."
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["Centreline", "Radius", "Capped"],
+  "additionalProperties" : false
 }

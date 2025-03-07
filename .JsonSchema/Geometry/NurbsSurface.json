@@ -53,6 +53,14 @@
       "items" : {
         "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/SurfaceTrim.json"
       }
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["ControlPoints", "Weights", "UKnots", "VKnots", "UDegree", "VDegree", "InnerTrims", "OuterTrims"],
+  "additionalProperties" : false
 }

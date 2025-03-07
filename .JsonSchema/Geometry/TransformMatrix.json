@@ -27,8 +27,24 @@
         },
         "IsSynchronized" : {
           "type" : "boolean"
+        },
+        "_t" : {
+          "type" : "string"
+        },
+        "_bhomVersion" : {
+          "type" : "string"
         }
-      }
+      },
+      "required" : ["Length", "LongLength", "Rank", "SyncRoot", "IsReadOnly", "IsFixedSize", "IsSynchronized"],
+      "additionalProperties" : false
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["Matrix"],
+  "additionalProperties" : false
 }

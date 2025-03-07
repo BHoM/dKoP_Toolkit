@@ -19,6 +19,14 @@
     "D" : {
       "type" : "integer",
       "description" : "Index of fourth corner in Point list. Set to -1 for three-sided Face."
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["A", "B", "C", "D"],
+  "additionalProperties" : false
 }

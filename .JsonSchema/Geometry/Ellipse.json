@@ -20,6 +20,14 @@
     "Radius2" : {
       "type" : "number",
       "description" : "Distance from the Centre to a point on the Ellipse along Axis2. Property has a quantity of type Length meassured in [m]."
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["Centre", "Axis1", "Axis2", "Radius1", "Radius2"],
+  "additionalProperties" : false
 }

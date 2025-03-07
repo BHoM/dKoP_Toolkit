@@ -15,6 +15,14 @@
     "Z" : {
       "type" : "number",
       "description" : "Dimension along global Z coordinate axis. Property has a quantity of type Length meassured in [m]."
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["X", "Y", "Z"],
+  "additionalProperties" : false
 }

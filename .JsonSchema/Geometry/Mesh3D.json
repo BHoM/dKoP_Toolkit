@@ -24,6 +24,14 @@
       "items" : {
         "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/CellRelation.json"
       }
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["Vertices", "Faces", "CellRelation"],
+  "additionalProperties" : false
 }

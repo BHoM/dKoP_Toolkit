@@ -18,6 +18,14 @@
     "EndAngle" : {
       "type" : "number",
       "description" : "Angle in radians to the end point from the local x-axis, counter clockwise around the local z-axis. Property has a quantity of type Angle meassured in [rad]."
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["CoordinateSystem", "Radius", "StartAngle", "EndAngle"],
+  "additionalProperties" : false
 }

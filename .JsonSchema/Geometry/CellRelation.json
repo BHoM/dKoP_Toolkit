@@ -11,6 +11,14 @@
     "ToCell" : {
       "type" : "integer",
       "description" : "Index of the cell the Face is connected to which its normal is pointing towards."
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["FromCell", "ToCell"],
+  "additionalProperties" : false
 }

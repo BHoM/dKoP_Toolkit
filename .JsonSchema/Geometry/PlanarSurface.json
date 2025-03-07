@@ -13,6 +13,14 @@
       "items" : {
         "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/ICurve.json"
       }
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["ExternalBoundary", "InternalBoundaries"],
+  "additionalProperties" : false
 }

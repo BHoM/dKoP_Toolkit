@@ -17,6 +17,14 @@
     "Height" : {
       "type" : "number",
       "description" : "Distance between the base and top surface, measured along the Axis. Property has a quantity of type Length meassured in [m]."
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["Centre", "Axis", "Radius", "Height"],
+  "additionalProperties" : false
 }

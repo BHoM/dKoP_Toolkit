@@ -13,6 +13,14 @@
     "Infinite" : {
       "type" : "boolean",
       "description" : "Defines the Line as a ray of infinite extents in both directions"
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["Start", "End", "Infinite"],
+  "additionalProperties" : false
 }

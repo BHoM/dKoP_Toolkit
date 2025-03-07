@@ -18,6 +18,14 @@
     "Height" : {
       "type" : "number",
       "description" : "Dimension in the local z-axis. The Cuboid will have one face at a distance of Height/2 from the centre along the positive local z-axis and, one face at a distance of Height/2 from the centre along the negative local z-axis. Property has a quantity of type Length meassured in [m]."
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["CoordinateSystem", "Length", "Depth", "Height"],
+  "additionalProperties" : false
 }

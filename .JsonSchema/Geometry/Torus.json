@@ -17,6 +17,14 @@
     "RadiusMinor" : {
       "type" : "number",
       "description" : "The radius defining the size of the circular cross section. Property has a quantity of type Length meassured in [m]."
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["Centre", "Axis", "RadiusMajor", "RadiusMinor"],
+  "additionalProperties" : false
 }

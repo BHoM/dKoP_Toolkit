@@ -18,6 +18,14 @@
       "items" : {
         "type" : "number"
       }
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["Width", "Length", "Centre", "Placement"],
+  "additionalProperties" : false
 }

@@ -15,6 +15,14 @@
     "Z" : {
       "type" : "number",
       "description" : "Position along global Z coordinate axis."
+    },
+    "_t" : {
+      "type" : "string"
+    },
+    "_bhomVersion" : {
+      "type" : "string"
     }
-  }
+  },
+  "required" : ["X", "Y", "Z"],
+  "additionalProperties" : false
 }
