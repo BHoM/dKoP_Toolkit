@@ -21,10 +21,12 @@
       "description" : "If true handles adjecent parallel segemnts, that is, segments that have an angle below tolerance. This is handled by removal of the vertex connection the two segments for a concave offset and introductions of one additional vertex for a convex offset. Recomended for the general case to be set to true. To be noted that when this option is true, the topology of the polyline might change due to segments being added and/or removed. Only applicable for Polyline offsets. Defaults to true."
     },
     "_t" : {
-      "type" : "string"
+      "type" : "string",
+      "description" : "Optional Type descriminator for BHoM type."
     },
     "_bhomVersion" : {
-      "type" : "string"
+      "type" : "string",
+      "description" : "Optional Version of BHoM used when generating the object."
     }
   },
   "required" : ["RemoveShortSegments", "HandleCreatedLocalSelfIntersections", "HandleGeneralCreatedSelfIntersections", "HandleAdjacentParallelSegments"],

@@ -15,10 +15,12 @@
       "description" : "Defines the Extrusion as closed and therfore a solid volume."
     },
     "_t" : {
-      "type" : "string"
+      "type" : "string",
+      "description" : "Optional Type descriminator for BHoM type."
     },
     "_bhomVersion" : {
-      "type" : "string"
+      "type" : "string",
+      "description" : "Optional Version of BHoM used when generating the object."
     }
   },
   "required" : ["Curve", "Direction", "Capped"],
