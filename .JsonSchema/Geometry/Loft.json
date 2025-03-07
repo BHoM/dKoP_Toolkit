@@ -1,0 +1,15 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Loft.json",
+  "title" : "Loft",
+  "type" : "object",
+  "description" : "Loft: A free-form surface defined by a series of cross sectional Curves. The surface provides a continuous interpolation passing through each Curve in order.",
+  "properties" : {
+    "Curves" : {
+      "type" : "array",
+      "description" : "An ordered list of Curves defining the varying cross sectional surface profile.",
+      "items" : {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/ICurve.json"
+      }
+    }
+  }
+}

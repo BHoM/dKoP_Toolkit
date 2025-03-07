@@ -1,0 +1,19 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Pipe.json",
+  "title" : "Pipe",
+  "type" : "object",
+  "description" : "Pipe: A constant circular cross section surface, following a defined curve path.",
+  "properties" : {
+    "Centreline" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/ICurve.json"
+    },
+    "Radius" : {
+      "type" : "number",
+      "description" : "The distance from the Curve Centreline to a point on the Pipe surface. Property has a quantity of type Length meassured in [m]."
+    },
+    "Capped" : {
+      "type" : "boolean",
+      "description" : "Defines the Pipe as closed and therfore a solid volume."
+    }
+  }
+}

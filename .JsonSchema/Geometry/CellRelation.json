@@ -1,0 +1,16 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/CellRelation.json",
+  "title" : "CellRelation",
+  "type" : "object",
+  "description" : "CellRelation: Details the index of the cells which is behind and infront of each Face.",
+  "properties" : {
+    "FromCell" : {
+      "type" : "integer",
+      "description" : "Index of the cell the Face is connected to which its normal is pointing away from."
+    },
+    "ToCell" : {
+      "type" : "integer",
+      "description" : "Index of the cell the Face is connected to which its normal is pointing towards."
+    }
+  }
+}

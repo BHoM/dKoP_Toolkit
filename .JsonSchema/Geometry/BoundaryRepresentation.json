@@ -1,0 +1,19 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/BoundaryRepresentation.json",
+  "title" : "BoundaryRepresentation",
+  "type" : "object",
+  "description" : "BoundaryRepresentation: Solid representation defined by a collection of connected surfaces forming a closed volume",
+  "properties" : {
+    "Surfaces" : {
+      "type" : "array",
+      "description" : "List of ISurfaces must form a closed volume - checks and guarantees to be performed at conversion",
+      "items" : {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/ISurface.json"
+      }
+    },
+    "Volume" : {
+      "type" : "number",
+      "description" : "The enclosed volume created by the boundary surfaces. Property is set where available at conversion. If unavailable, or invalidated, will read NaN (not a number) Property has a quantity of type Volume meassured in [m³]."
+    }
+  }
+}

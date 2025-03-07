@@ -1,0 +1,15 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Polyline.json",
+  "title" : "Polyline",
+  "type" : "object",
+  "description" : "Polyline: A curve consisting of a continuous chain of straight line segments. The Polyline is considered closed if the first and last ControlPoints are coincident.",
+  "properties" : {
+    "ControlPoints" : {
+      "type" : "array",
+      "description" : "An ordered set of three-dimensional points defining the curve shape.",
+      "items" : {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Point.json"
+      }
+    }
+  }
+}

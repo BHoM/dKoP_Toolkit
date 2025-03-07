@@ -1,0 +1,15 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Sphere.json",
+  "title" : "Sphere",
+  "type" : "object",
+  "description" : "Sphere: Standard sphere defining the closed bounding surface of constant distance from a point, its Centre",
+  "properties" : {
+    "Centre" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Point.json"
+    },
+    "Radius" : {
+      "type" : "number",
+      "description" : "Distance from the Centre to the Sphere boundary surface Property has a quantity of type Length meassured in [m]."
+    }
+  }
+}

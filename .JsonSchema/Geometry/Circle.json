@@ -1,0 +1,18 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Circle.json",
+  "title" : "Circle",
+  "type" : "object",
+  "description" : "Circle: A plane curve. Standard circle defining a curve of constant distance from a point, its Centre.",
+  "properties" : {
+    "Centre" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Point.json"
+    },
+    "Normal" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Vector.json"
+    },
+    "Radius" : {
+      "type" : "number",
+      "description" : "Distance from the Centre to any point on Circle. Property has a quantity of type Length meassured in [m]."
+    }
+  }
+}

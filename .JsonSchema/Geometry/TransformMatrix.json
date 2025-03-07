@@ -1,0 +1,34 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/TransformMatrix.json",
+  "title" : "TransformMatrix",
+  "type" : "object",
+  "description" : "TransformMatrix: A 4x4 matrix describing linear tranformations in three-dimensional space, such as translations, rotations, reflections, scaling and shearing.",
+  "properties" : {
+    "Matrix" : {
+      "type" : "object",
+      "properties" : {
+        "Length" : {
+          "type" : "integer"
+        },
+        "LongLength" : {
+          "type" : "integer"
+        },
+        "Rank" : {
+          "type" : "integer"
+        },
+        "SyncRoot" : {
+          "type" : "object"
+        },
+        "IsReadOnly" : {
+          "type" : "boolean"
+        },
+        "IsFixedSize" : {
+          "type" : "boolean"
+        },
+        "IsSynchronized" : {
+          "type" : "boolean"
+        }
+      }
+    }
+  }
+}

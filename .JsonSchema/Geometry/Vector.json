@@ -1,0 +1,20 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Vector.json",
+  "title" : "Vector",
+  "type" : "object",
+  "description" : "Vector: Defines a direction and magnitude in three-dimensional Euclidean space.",
+  "properties" : {
+    "X" : {
+      "type" : "number",
+      "description" : "Dimension along global X coordinate axis. Property has a quantity of type Length meassured in [m]."
+    },
+    "Y" : {
+      "type" : "number",
+      "description" : "Dimension along global Y coordinate axis. Property has a quantity of type Length meassured in [m]."
+    },
+    "Z" : {
+      "type" : "number",
+      "description" : "Dimension along global Z coordinate axis. Property has a quantity of type Length meassured in [m]."
+    }
+  }
+}

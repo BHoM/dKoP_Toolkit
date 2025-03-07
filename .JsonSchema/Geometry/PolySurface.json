@@ -1,0 +1,15 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/PolySurface.json",
+  "title" : "PolySurface",
+  "type" : "object",
+  "description" : "PolySurface: A composite surface constructed by combining a collection of surfaces of any type. Whole PolySurface integrity, continuity and closure is not guaranteed at creation. Discontinuous and/or multi-region definitions are possible, although validity of some engine methods may vary depending on the PolySurface form.",
+  "properties" : {
+    "Surfaces" : {
+      "type" : "array",
+      "description" : "A collection of surfaces, of any or mixed type, which together define the composite shape.",
+      "items" : {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/ISurface.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Mesh3D.json",
+  "title" : "Mesh3D",
+  "type" : "object",
+  "description" : "Mesh3D: A polygon mesh, defined by a list of triangular or quadrilateral Faces, Cells and their Vertices.",
+  "properties" : {
+    "Vertices" : {
+      "type" : "array",
+      "description" : "Defines the three-dimensional Mesh geometry as  X, Y, Z coordinates.",
+      "items" : {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Point.json"
+      }
+    },
+    "Faces" : {
+      "type" : "array",
+      "description" : "The list of polygons, defined as corner Point indices referencing the list of Vertices.",
+      "items" : {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Face.json"
+      }
+    },
+    "CellRelation" : {
+      "type" : "array",
+      "description" : "A parallel list to the Faces, details the index of the cells which is behind and infront of each Face.",
+      "items" : {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/CellRelation.json"
+      }
+    }
+  }
+}

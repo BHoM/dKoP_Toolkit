@@ -1,0 +1,25 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Ellipse.json",
+  "title" : "Ellipse",
+  "type" : "object",
+  "description" : "Ellipse: A plane curve. A standard ellipse defining a curve of constant combined distance around two foci.\nThe larger of the two radii defines the major axis of the Ellipse, and the line along which the two foci lie.",
+  "properties" : {
+    "Centre" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Point.json"
+    },
+    "Axis1" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Vector.json"
+    },
+    "Axis2" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Vector.json"
+    },
+    "Radius1" : {
+      "type" : "number",
+      "description" : "Distance from the Centre to a point on the Ellipse along Axis1. Property has a quantity of type Length meassured in [m]."
+    },
+    "Radius2" : {
+      "type" : "number",
+      "description" : "Distance from the Centre to a point on the Ellipse along Axis2. Property has a quantity of type Length meassured in [m]."
+    }
+  }
+}

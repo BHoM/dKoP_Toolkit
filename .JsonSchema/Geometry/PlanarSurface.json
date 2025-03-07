@@ -1,0 +1,18 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/PlanarSurface.json",
+  "title" : "PlanarSurface",
+  "type" : "object",
+  "description" : "PlanarSurface: A surface defined by boundary edge curves lying in a common plane. Planarity toleraces default to the BH.oM.Geometry.Tolerace.Distance.",
+  "properties" : {
+    "ExternalBoundary" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/ICurve.json"
+    },
+    "InternalBoundaries" : {
+      "type" : "array",
+      "description" : "List of closed (co)planar curves defining any internal openings in the surface.",
+      "items" : {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/ICurve.json"
+      }
+    }
+  }
+}

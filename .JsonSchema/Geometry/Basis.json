@@ -1,0 +1,17 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Basis.json",
+  "title" : "Basis",
+  "type" : "object",
+  "description" : "Basis: An ordered set of mutually orthogonal unit vectors defining three-dimensional orientation in space",
+  "properties" : {
+    "X" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Vector.json"
+    },
+    "Y" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Vector.json"
+    },
+    "Z" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Vector.json"
+    }
+  }
+}

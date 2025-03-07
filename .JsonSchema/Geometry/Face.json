@@ -1,0 +1,24 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Face.json",
+  "title" : "Face",
+  "type" : "object",
+  "description" : "Face: A triangular or quadrilateral shape forming the basis of a polygon Mesh. Defined by corner vertices referencing indices of a Point list. See BH.oM.Geometry.Mesh object for usage.\nA value of -1 for the fourth vertex D indicates the Face is triangular.",
+  "properties" : {
+    "A" : {
+      "type" : "integer",
+      "description" : "Index of first corner in Point list."
+    },
+    "B" : {
+      "type" : "integer",
+      "description" : "Index of second corner in Point list."
+    },
+    "C" : {
+      "type" : "integer",
+      "description" : "Index of third corner in Point list."
+    },
+    "D" : {
+      "type" : "integer",
+      "description" : "Index of fourth corner in Point list. Set to -1 for three-sided Face."
+    }
+  }
+}

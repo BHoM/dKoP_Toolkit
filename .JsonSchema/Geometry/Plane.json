@@ -1,0 +1,14 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Plane.json",
+  "title" : "Plane",
+  "type" : "object",
+  "description" : "Plane: Defines a flat infinite two-dimensional surface",
+  "properties" : {
+    "Origin" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Point.json"
+    },
+    "Normal" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Vector.json"
+    }
+  }
+}

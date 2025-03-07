@@ -1,0 +1,23 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Arc.json",
+  "title" : "Arc",
+  "type" : "object",
+  "description" : "Arc: A plane curve. A circular Arc, a curve, with a constant distance from a point, its centre, defined it the local angular domain between start and end angle.",
+  "properties" : {
+    "CoordinateSystem" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/CoordinateSystem-Cartesian.json"
+    },
+    "Radius" : {
+      "type" : "number",
+      "description" : "Distance from the CoordinateSystem.Origin to the any point on Arc. Property has a quantity of type Length meassured in [m]."
+    },
+    "StartAngle" : {
+      "type" : "number",
+      "description" : "Angle in radians to the start point from the local x-axis, counter clockwise around the local z-axis. Property has a quantity of type Angle meassured in [rad]."
+    },
+    "EndAngle" : {
+      "type" : "number",
+      "description" : "Angle in radians to the end point from the local x-axis, counter clockwise around the local z-axis. Property has a quantity of type Angle meassured in [rad]."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Extrusion.json",
+  "title" : "Extrusion",
+  "type" : "object",
+  "description" : "Extrusion: A constant cross section surface, defined by a single profile curve and a linear axis.",
+  "properties" : {
+    "Curve" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/ICurve.json"
+    },
+    "Direction" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Vector.json"
+    },
+    "Capped" : {
+      "type" : "boolean",
+      "description" : "Defines the Extrusion as closed and therfore a solid volume."
+    }
+  }
+}

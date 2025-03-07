@@ -1,0 +1,15 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/BoundaryCurve.json",
+  "title" : "BoundaryCurve",
+  "type" : "object",
+  "description" : "BoundaryCurve: Closed, planar, non-self intersecting curve built up of multiple curve segments.",
+  "properties" : {
+    "Curves" : {
+      "type" : "array",
+      "description" : "A collection of curves, of any or mixed type, which together define a closed, planar, non-self intersection boundary loop.",
+      "items" : {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/ICurve.json"
+      }
+    }
+  }
+}

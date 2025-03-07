@@ -1,0 +1,22 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Mesh.json",
+  "title" : "Mesh",
+  "type" : "object",
+  "description" : "Mesh: A polygon mesh, defined by a list of triangular or quadrilateral Faces and their Vertices.",
+  "properties" : {
+    "Vertices" : {
+      "type" : "array",
+      "description" : "Defines the three-dimensional Mesh geometry as  X, Y, Z coordinates.",
+      "items" : {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Point.json"
+      }
+    },
+    "Faces" : {
+      "type" : "array",
+      "description" : "The list of polygons, defined as corner Point indices referencing the list of Vertices.",
+      "items" : {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Face.json"
+      }
+    }
+  }
+}

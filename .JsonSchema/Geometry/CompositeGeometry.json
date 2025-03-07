@@ -1,0 +1,15 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/CompositeGeometry.json",
+  "title" : "CompositeGeometry",
+  "type" : "object",
+  "description" : "CompositeGeometry: A collection of multiple sets of Geometry of any or mixed type. Integrity, continuity and closure is not guaranteed. Discontinuous and/or mixed type definitions are possible, with no restrictions placed on how geometry can be combined.",
+  "properties" : {
+    "Elements" : {
+      "type" : "array",
+      "description" : "A list of assorted geometry, which together define the composite shape.",
+      "items" : {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/IGeometry.json"
+      }
+    }
+  }
+}

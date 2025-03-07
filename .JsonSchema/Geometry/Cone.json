@@ -1,0 +1,22 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Cone.json",
+  "title" : "Cone",
+  "type" : "object",
+  "description" : "Cone: A solid circular right angled cone",
+  "properties" : {
+    "Centre" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Point.json"
+    },
+    "Axis" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Vector.json"
+    },
+    "Radius" : {
+      "type" : "number",
+      "description" : "Distance from the Centre to the edge of the circular base Property has a quantity of type Length meassured in [m]."
+    },
+    "Height" : {
+      "type" : "number",
+      "description" : "Distance from the centre of the base to the Cone's apex Property has a quantity of type Length meassured in [m]."
+    }
+  }
+}

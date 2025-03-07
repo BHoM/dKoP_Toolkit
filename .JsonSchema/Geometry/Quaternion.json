@@ -1,0 +1,20 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Quaternion.json",
+  "title" : "Quaternion",
+  "type" : "object",
+  "description" : "Quaternion: A four-dimensional vector, useful in calculation of affine transformations in three-dimensional space. See also BH.oM.Geometry.TransformMatrix.",
+  "properties" : {
+    "X" : {
+      "type" : "number"
+    },
+    "Y" : {
+      "type" : "number"
+    },
+    "Z" : {
+      "type" : "number"
+    },
+    "W" : {
+      "type" : "number"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/SurfaceTrim.json",
+  "title" : "SurfaceTrim",
+  "type" : "object",
+  "description" : "SurfaceTrim: A pair of curves representing the boundary of a trimmed surface in both global X, Y, Z coordinates (Curve3d) as well as local surface U, V parameter space (Curve2d).\nA Surface Trim is immutable to ensure compatiblity of both curves.",
+  "properties" : {
+    "Curve3d" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/ICurve.json"
+    },
+    "Curve2d" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/ICurve.json"
+    }
+  }
+}

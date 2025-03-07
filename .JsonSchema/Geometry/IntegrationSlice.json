@@ -1,0 +1,23 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/IntegrationSlice.json",
+  "title" : "IntegrationSlice",
+  "type" : "object",
+  "description" : "IntegrationSlice: Describes a discrete finite slice of an area. Used for numerical approximation of an integration.",
+  "properties" : {
+    "Width" : {
+      "type" : "number"
+    },
+    "Length" : {
+      "type" : "number"
+    },
+    "Centre" : {
+      "type" : "number"
+    },
+    "Placement" : {
+      "type" : "array",
+      "items" : {
+        "type" : "number"
+      }
+    }
+  }
+}
