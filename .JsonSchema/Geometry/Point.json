@@ -1,20 +1,20 @@
 {
-    "$id": "https://github.com/BHoM/dKoP_Toolkit/blob/TestSchema/.JsonSchema/Geometry/Point",
-    "title": "Point",
-    "type": "object",
-    "description": "Point: Defines a dimensionless location in three-dimensional space.",
-    "properties": {
-        "X": {
-            "type": "number",
-            "description": "Position along global X coordinate axis."
-        },
-        "Y": {
-            "type": "number",
-            "description": "Position along global Y coordinate axis."
-        },
-        "Z": {
-            "type": "number",
-            "description": "Position along global Z coordinate axis."
-        }
+  "$id" : "https://github.com/BHoM/dKoP_Toolkit/blob/TestSchema/.JsonSchema/Geometry/Point.json",
+  "title" : "Point",
+  "type" : "object",
+  "description" : "Point: Defines a dimensionless location in three-dimensional space.",
+  "properties" : {
+    "X" : {
+      "type" : "number",
+      "description" : "Position along global X coordinate axis."
+    },
+    "Y" : {
+      "type" : "number",
+      "description" : "Position along global Y coordinate axis."
+    },
+    "Z" : {
+      "type" : "number",
+      "description" : "Position along global Z coordinate axis."
     }
+  }
 }
