@@ -1,0 +1,4 @@
+{
+  "type" : "string",
+  "enum" : ["EI30", "EI60", "EI90", "REI30", "REI60", "REI90"]
+}

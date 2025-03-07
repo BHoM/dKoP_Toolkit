@@ -1,0 +1,38 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FlatRoof.json",
+  "title" : "FlatRoof",
+  "type" : "object",
+  "properties" : {
+    "AdministrativeInformation" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AdministrativeInformation.json"
+    },
+    "QualityAndCertification" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/QualityAndCertification.json"
+    },
+    "HealthAndSafety" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/HealthAndSafety.json"
+    },
+    "Geometry" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FlatRoofGeometry.json"
+    },
+    "Performance" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/RoofPerformance.json"
+    },
+    "Assembly" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Assembly.json"
+    },
+    "Interfaces" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FloorAndRoofInterfaces.json"
+    },
+    "_t" : {
+      "type" : "string",
+      "description" : "Optional Type descriminator for BHoM type."
+    },
+    "_bhomVersion" : {
+      "type" : "string",
+      "description" : "Optional Version of BHoM used when generating the object."
+    }
+  },
+  "required" : ["AdministrativeInformation", "QualityAndCertification", "HealthAndSafety", "Geometry", "Performance", "Assembly", "Interfaces"],
+  "additionalProperties" : false
+}

@@ -1,0 +1,4 @@
+{
+  "type" : "string",
+  "enum" : ["Undefined", "C1_VeryLow", "C2_Low", "C3_Medium", "C4_High", "C5_VeryHigh", "CX_Extreme"]
+}

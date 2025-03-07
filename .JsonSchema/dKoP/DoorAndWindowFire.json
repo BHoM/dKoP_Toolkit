@@ -1,0 +1,25 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorAndWindowFire.json",
+  "title" : "DoorAndWindowFire",
+  "type" : "object",
+  "properties" : {
+    "FireResistance" : {
+      "type" : "string",
+      "enum" : ["EI30", "EI60", "EI90", "REI30", "REI60", "REI90"]
+    },
+    "SurfaceSpreadOfFlame" : {
+      "type" : "string",
+      "description" : "Reaction to fire, smoke propagation, flaming droplets and particles."
+    },
+    "_t" : {
+      "type" : "string",
+      "description" : "Optional Type descriminator for BHoM type."
+    },
+    "_bhomVersion" : {
+      "type" : "string",
+      "description" : "Optional Version of BHoM used when generating the object."
+    }
+  },
+  "required" : ["FireResistance", "SurfaceSpreadOfFlame"],
+  "additionalProperties" : false
+}

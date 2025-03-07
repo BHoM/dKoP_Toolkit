@@ -1,0 +1,30 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Construction.json",
+  "title" : "Construction",
+  "type" : "object",
+  "properties" : {
+    "Weight" : {
+      "type" : "number",
+      "description" : "Property has a quantity of type Mass meassured in [kg]."
+    },
+    "LiftingPoints" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/LiftingPoints.json"
+    },
+    "TemporaryWorks" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/TemporaryWorks.json"
+    },
+    "WeatherProtection" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WeatherProtection.json"
+    },
+    "_t" : {
+      "type" : "string",
+      "description" : "Optional Type descriminator for BHoM type."
+    },
+    "_bhomVersion" : {
+      "type" : "string",
+      "description" : "Optional Version of BHoM used when generating the object."
+    }
+  },
+  "required" : ["Weight", "LiftingPoints", "TemporaryWorks", "WeatherProtection"],
+  "additionalProperties" : false
+}

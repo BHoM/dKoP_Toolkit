@@ -1,0 +1,42 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Loading.json",
+  "title" : "Loading",
+  "type" : "object",
+  "properties" : {
+    "SelfWeight" : {
+      "type" : "number"
+    },
+    "VariableLoad" : {
+      "type" : "number"
+    },
+    "WindLoad" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WindLoad.json"
+    },
+    "SnowLoad" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/SnowLoad.json"
+    },
+    "StructuralConfirmation" : {
+      "type" : "boolean"
+    },
+    "StructuralVerificationMethod" : {
+      "type" : "string"
+    },
+    "ContinuousHeadRestraint" : {
+      "type" : "boolean"
+    },
+    "MaxUnrestrainedLength" : {
+      "type" : "number",
+      "description" : "Property has a quantity of type Length meassured in [m]."
+    },
+    "_t" : {
+      "type" : "string",
+      "description" : "Optional Type descriminator for BHoM type."
+    },
+    "_bhomVersion" : {
+      "type" : "string",
+      "description" : "Optional Version of BHoM used when generating the object."
+    }
+  },
+  "required" : ["SelfWeight", "VariableLoad", "WindLoad", "SnowLoad", "StructuralConfirmation", "StructuralVerificationMethod", "ContinuousHeadRestraint", "MaxUnrestrainedLength"],
+  "additionalProperties" : false
+}

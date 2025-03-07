@@ -1,0 +1,30 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FinishesRoof.json",
+  "title" : "FinishesRoof",
+  "type" : "object",
+  "description" : "FinishesRoof:",
+  "properties" : {
+    "RoofFinish" : {
+      "type" : "string"
+    },
+    "CeilingFinish" : {
+      "type" : "string"
+    },
+    "Guttering" : {
+      "type" : "string"
+    },
+    "FacsiaAndSoffitPanels" : {
+      "type" : "string"
+    },
+    "_t" : {
+      "type" : "string",
+      "description" : "Optional Type descriminator for BHoM type."
+    },
+    "_bhomVersion" : {
+      "type" : "string",
+      "description" : "Optional Version of BHoM used when generating the object."
+    }
+  },
+  "required" : ["RoofFinish", "CeilingFinish", "Guttering", "FacsiaAndSoffitPanels"],
+  "additionalProperties" : false
+}

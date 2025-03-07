@@ -1,0 +1,61 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Door.json",
+  "title" : "Door",
+  "type" : "object",
+  "properties" : {
+    "StructuralWidth" : {
+      "type" : "number"
+    },
+    "StructuralHeight" : {
+      "type" : "number"
+    },
+    "PositionAlongWall" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ParameterPoint.json"
+    },
+    "ConfirmationGeometryRequirementsAreMet" : {
+      "type" : "boolean"
+    },
+    "Fire" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorAndWindowFire.json"
+    },
+    "AcousticPerformance" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorAndWindowAcoustics.json"
+    },
+    "ThermalPerformance" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorAndWindowThermalPerformance.json"
+    },
+    "DoorFinish" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorFinish.json"
+    },
+    "FrameFinish" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/OpeningPartFinish.json"
+    },
+    "DoorFurniture" : {
+      "type" : "string"
+    },
+    "ArchitraveSpecification" : {
+      "type" : "string",
+      "enum" : ["Unknown", "Ogee", "Square", "Rounded", "None"]
+    },
+    "DirectionOfOpening" : {
+      "type" : "string",
+      "enum" : ["Unknown", "Left", "Right", "Up", "Down"]
+    },
+    "FinishesStyleAndOpeningDirection" : {
+      "type" : "string"
+    },
+    "Product" : {
+      "type" : "string"
+    },
+    "_t" : {
+      "type" : "string",
+      "description" : "Optional Type descriminator for BHoM type."
+    },
+    "_bhomVersion" : {
+      "type" : "string",
+      "description" : "Optional Version of BHoM used when generating the object."
+    }
+  },
+  "required" : ["StructuralWidth", "StructuralHeight", "PositionAlongWall", "ConfirmationGeometryRequirementsAreMet", "Fire", "AcousticPerformance", "ThermalPerformance", "DoorFinish", "FrameFinish", "DoorFurniture", "ArchitraveSpecification", "DirectionOfOpening", "FinishesStyleAndOpeningDirection", "Product"],
+  "additionalProperties" : false
+}

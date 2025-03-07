@@ -1,0 +1,38 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AdministrativeInformation.json",
+  "title" : "AdministrativeInformation",
+  "type" : "object",
+  "properties" : {
+    "Overview" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Overview.json"
+    },
+    "CrossReference" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/CrossReference.json"
+    },
+    "ProjectIdentification" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ProjectIdentification.json"
+    },
+    "ProjectTeam" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ProjectTeam.json"
+    },
+    "PartIdentification" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PartIdentification.json"
+    },
+    "ProductDetails" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ProductDetails.json"
+    },
+    "ManufacturerDetails" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ManufacturerDetails.json"
+    },
+    "_t" : {
+      "type" : "string",
+      "description" : "Optional Type descriminator for BHoM type."
+    },
+    "_bhomVersion" : {
+      "type" : "string",
+      "description" : "Optional Version of BHoM used when generating the object."
+    }
+  },
+  "required" : ["Overview", "CrossReference", "ProjectIdentification", "ProjectTeam", "PartIdentification", "ProductDetails", "ManufacturerDetails"],
+  "additionalProperties" : false
+}

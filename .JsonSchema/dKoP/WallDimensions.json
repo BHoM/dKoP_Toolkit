@@ -1,0 +1,29 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallDimensions.json",
+  "title" : "WallDimensions",
+  "type" : "object",
+  "properties" : {
+    "Width" : {
+      "type" : "number"
+    },
+    "Length" : {
+      "type" : "number"
+    },
+    "Height" : {
+      "type" : "number"
+    },
+    "ConfirmationGeometryRequirementsAreMet" : {
+      "type" : "boolean"
+    },
+    "_t" : {
+      "type" : "string",
+      "description" : "Optional Type descriminator for BHoM type."
+    },
+    "_bhomVersion" : {
+      "type" : "string",
+      "description" : "Optional Version of BHoM used when generating the object."
+    }
+  },
+  "required" : ["Width", "Length", "Height", "ConfirmationGeometryRequirementsAreMet"],
+  "additionalProperties" : false
+}

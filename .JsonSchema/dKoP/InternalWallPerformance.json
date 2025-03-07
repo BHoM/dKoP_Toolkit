@@ -1,0 +1,44 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/InternalWallPerformance.json",
+  "title" : "InternalWallPerformance",
+  "type" : "object",
+  "properties" : {
+    "Sustainability" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Sustainability.json"
+    },
+    "Durability" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Durability.json"
+    },
+    "Compartmentation" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Compartmentation.json"
+    },
+    "Acoustics" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AcousticsWallAndRoof.json"
+    },
+    "Fire" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Fire.json"
+    },
+    "Loading" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Loading.json"
+    },
+    "Services" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Services.json"
+    },
+    "Finishes" : {
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FinishesWall.json"
+    },
+    "AdditionalFeatures" : {
+      "type" : "string"
+    },
+    "_t" : {
+      "type" : "string",
+      "description" : "Optional Type descriminator for BHoM type."
+    },
+    "_bhomVersion" : {
+      "type" : "string",
+      "description" : "Optional Version of BHoM used when generating the object."
+    }
+  },
+  "required" : ["Sustainability", "Durability", "Compartmentation", "Acoustics", "Fire", "Loading", "Services", "Finishes", "AdditionalFeatures"],
+  "additionalProperties" : false
+}

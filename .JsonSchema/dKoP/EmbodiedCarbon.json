@@ -1,0 +1,41 @@
+{
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/EmbodiedCarbon.json",
+  "title" : "EmbodiedCarbon",
+  "type" : "object",
+  "properties" : {
+    "A1toA3" : {
+      "type" : "number",
+      "description" : "Property has a quantity of type ClimateChange meassured in [kg CO2 eq]."
+    },
+    "A4" : {
+      "type" : "number",
+      "description" : "Property has a quantity of type ClimateChange meassured in [kg CO2 eq]."
+    },
+    "A5" : {
+      "type" : "number",
+      "description" : "Property has a quantity of type ClimateChange meassured in [kg CO2 eq]."
+    },
+    "B1toB5" : {
+      "type" : "number",
+      "description" : "Property has a quantity of type ClimateChange meassured in [kg CO2 eq]."
+    },
+    "C1toC4" : {
+      "type" : "number",
+      "description" : "Property has a quantity of type ClimateChange meassured in [kg CO2 eq]."
+    },
+    "D" : {
+      "type" : "number",
+      "description" : "Property has a quantity of type ClimateChange meassured in [kg CO2 eq]."
+    },
+    "_t" : {
+      "type" : "string",
+      "description" : "Optional Type descriminator for BHoM type."
+    },
+    "_bhomVersion" : {
+      "type" : "string",
+      "description" : "Optional Version of BHoM used when generating the object."
+    }
+  },
+  "required" : ["A1toA3", "A4", "A5", "B1toB5", "C1toC4", "D"],
+  "additionalProperties" : false
+}

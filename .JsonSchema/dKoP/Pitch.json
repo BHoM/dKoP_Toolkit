@@ -1,0 +1,4 @@
+{
+  "type" : "string",
+  "enum" : ["Unknown", "Deg35", "Deg40", "Deg45"]
+}

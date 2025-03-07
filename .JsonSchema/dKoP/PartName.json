@@ -1,0 +1,4 @@
+{
+  "type" : "string",
+  "enum" : ["WallInternal", "WallExternal", "WallParty", "Partition", "FloorUpper", "RoofPitched", "RoofFlat", "Truss", "Ceiling", "StairInternal", "StairExternal"]
+}
