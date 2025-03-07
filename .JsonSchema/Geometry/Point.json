@@ -1,5 +1,5 @@
 {
-  "$id" : "https://github.com/BHoM/dKoP_Toolkit/blob/TestSchema/.JsonSchema/Geometry/Point.json",
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Point.json",
   "title" : "Point",
   "type" : "object",
   "description" : "Point: Defines a dimensionless location in three-dimensional space.",
