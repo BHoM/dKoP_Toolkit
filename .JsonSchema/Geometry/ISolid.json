@@ -10,6 +10,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Torus"
             }
           }
@@ -21,6 +22,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Sphere"
             }
           }
@@ -32,6 +34,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Cylinder"
             }
           }
@@ -43,6 +46,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Cuboid"
             }
           }
@@ -54,6 +58,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Cone"
             }
           }
@@ -65,6 +70,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.BoundaryRepresentation"
             }
           }

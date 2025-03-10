@@ -7,8 +7,8 @@
       "type" : "boolean"
     },
     "_t" : {
-      "type" : "string",
       "description" : "Optional Type descriminator for BHoM type.",
+      "type" : "string",
       "const" : "BH.oM.dKoP.Ventilation"
     },
     "_bhomVersion" : {

@@ -16,8 +16,8 @@
       "description" : "Defines the Pipe as closed and therfore a solid volume."
     },
     "_t" : {
-      "type" : "string",
       "description" : "Optional Type descriminator for BHoM type.",
+      "type" : "string",
       "const" : "BH.oM.Geometry.Pipe"
     },
     "_bhomVersion" : {

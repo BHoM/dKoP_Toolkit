@@ -20,8 +20,8 @@
       "description" : "Angle in radians to the end point from the local x-axis, counter clockwise around the local z-axis. Property has a quantity of type Angle meassured in [rad]."
     },
     "_t" : {
-      "type" : "string",
       "description" : "Optional Type descriminator for BHoM type.",
+      "type" : "string",
       "const" : "BH.oM.Geometry.Arc"
     },
     "_bhomVersion" : {

@@ -16,8 +16,8 @@
       "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ContactDetails.json"
     },
     "_t" : {
-      "type" : "string",
       "description" : "Optional Type descriminator for BHoM type.",
+      "type" : "string",
       "const" : "BH.oM.dKoP.ProjectTeam"
     },
     "_bhomVersion" : {

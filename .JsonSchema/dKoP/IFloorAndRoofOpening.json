@@ -10,6 +10,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.dKoP.Staircase"
             }
           }
@@ -21,6 +22,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.dKoP.LoftHatchOpening"
             }
           }

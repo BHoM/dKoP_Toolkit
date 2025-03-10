@@ -13,8 +13,8 @@
       "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ParameterPoint.json"
     },
     "_t" : {
-      "type" : "string",
       "description" : "Optional Type descriminator for BHoM type.",
+      "type" : "string",
       "const" : "BH.oM.dKoP.Staircase"
     },
     "_bhomVersion" : {

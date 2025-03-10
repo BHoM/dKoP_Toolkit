@@ -21,8 +21,8 @@
       "description" : "Index of fourth corner in Point list. Set to -1 for three-sided Face."
     },
     "_t" : {
-      "type" : "string",
       "description" : "Optional Type descriminator for BHoM type.",
+      "type" : "string",
       "const" : "BH.oM.Geometry.Face"
     },
     "_bhomVersion" : {

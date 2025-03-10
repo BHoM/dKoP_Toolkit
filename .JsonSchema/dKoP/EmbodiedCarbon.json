@@ -28,8 +28,8 @@
       "description" : "Property has a quantity of type ClimateChange meassured in [kg CO2 eq]."
     },
     "_t" : {
-      "type" : "string",
       "description" : "Optional Type descriminator for BHoM type.",
+      "type" : "string",
       "const" : "BH.oM.dKoP.EmbodiedCarbon"
     },
     "_bhomVersion" : {

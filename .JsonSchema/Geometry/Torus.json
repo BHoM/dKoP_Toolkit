@@ -19,8 +19,8 @@
       "description" : "The radius defining the size of the circular cross section. Property has a quantity of type Length meassured in [m]."
     },
     "_t" : {
-      "type" : "string",
       "description" : "Optional Type descriminator for BHoM type.",
+      "type" : "string",
       "const" : "BH.oM.Geometry.Torus"
     },
     "_bhomVersion" : {

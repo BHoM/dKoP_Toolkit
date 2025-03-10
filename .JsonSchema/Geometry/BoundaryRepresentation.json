@@ -16,8 +16,8 @@
       "description" : "The enclosed volume created by the boundary surfaces. Property is set where available at conversion. If unavailable, or invalidated, will read NaN (not a number) Property has a quantity of type Volume meassured in [m³]."
     },
     "_t" : {
-      "type" : "string",
       "description" : "Optional Type descriminator for BHoM type.",
+      "type" : "string",
       "const" : "BH.oM.Geometry.BoundaryRepresentation"
     },
     "_bhomVersion" : {

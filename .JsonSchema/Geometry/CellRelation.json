@@ -13,8 +13,8 @@
       "description" : "Index of the cell the Face is connected to which its normal is pointing towards."
     },
     "_t" : {
-      "type" : "string",
       "description" : "Optional Type descriminator for BHoM type.",
+      "type" : "string",
       "const" : "BH.oM.Geometry.CellRelation"
     },
     "_bhomVersion" : {

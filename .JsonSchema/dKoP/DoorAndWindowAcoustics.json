@@ -8,8 +8,8 @@
       "description" : "Weighted sound reduction index, Rw."
     },
     "_t" : {
-      "type" : "string",
       "description" : "Optional Type descriminator for BHoM type.",
+      "type" : "string",
       "const" : "BH.oM.dKoP.DoorAndWindowAcoustics"
     },
     "_bhomVersion" : {

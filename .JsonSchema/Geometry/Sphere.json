@@ -12,8 +12,8 @@
       "description" : "Distance from the Centre to the Sphere boundary surface Property has a quantity of type Length meassured in [m]."
     },
     "_t" : {
-      "type" : "string",
       "description" : "Optional Type descriminator for BHoM type.",
+      "type" : "string",
       "const" : "BH.oM.Geometry.Sphere"
     },
     "_bhomVersion" : {

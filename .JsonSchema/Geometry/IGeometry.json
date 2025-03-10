@@ -10,6 +10,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.CoordinateSystem.Cartesian"
             }
           }
@@ -21,6 +22,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Vector"
             }
           }
@@ -32,6 +34,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Point"
             }
           }
@@ -43,6 +46,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Plane"
             }
           }
@@ -54,6 +58,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Basis"
             }
           }
@@ -65,6 +70,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.PolySurface"
             }
           }
@@ -76,6 +82,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.PlanarSurface"
             }
           }
@@ -87,6 +94,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Pipe"
             }
           }
@@ -98,6 +106,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.NurbsSurface"
             }
           }
@@ -109,6 +118,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Loft"
             }
           }
@@ -120,6 +130,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Extrusion"
             }
           }
@@ -131,6 +142,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Torus"
             }
           }
@@ -142,6 +154,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Sphere"
             }
           }
@@ -153,6 +166,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Cylinder"
             }
           }
@@ -164,6 +178,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Cuboid"
             }
           }
@@ -175,6 +190,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Cone"
             }
           }
@@ -186,6 +202,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.BoundaryRepresentation"
             }
           }
@@ -197,6 +214,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.TransformMatrix"
             }
           }
@@ -208,6 +226,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.SurfaceTrim"
             }
           }
@@ -219,6 +238,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Quaternion"
             }
           }
@@ -230,6 +250,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.CompositeGeometry"
             }
           }
@@ -241,6 +262,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.BoundingBox"
             }
           }
@@ -252,6 +274,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Mesh3D"
             }
           }
@@ -263,6 +286,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Mesh"
             }
           }
@@ -274,6 +298,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Face"
             }
           }
@@ -285,6 +310,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.CellRelation"
             }
           }
@@ -296,6 +322,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Polyline"
             }
           }
@@ -307,6 +334,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Polygon"
             }
           }
@@ -318,6 +346,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.PolyCurve"
             }
           }
@@ -329,6 +358,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.NurbsCurve"
             }
           }
@@ -340,6 +370,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Line"
             }
           }
@@ -351,6 +382,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Ellipse"
             }
           }
@@ -362,6 +394,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Circle"
             }
           }
@@ -373,6 +406,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.BoundaryCurve"
             }
           }
@@ -384,6 +418,7 @@
         "if" : {
           "properties" : {
             "_t" : {
+              "type" : "string",
               "const" : "BH.oM.Geometry.Arc"
             }
           }
