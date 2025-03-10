@@ -11,7 +11,8 @@
     },
     "_t" : {
       "type" : "string",
-      "description" : "Optional Type descriminator for BHoM type."
+      "description" : "Optional Type descriminator for BHoM type.",
+      "const" : "BH.oM.dKoP.ParameterPoint"
     },
     "_bhomVersion" : {
       "type" : "string",

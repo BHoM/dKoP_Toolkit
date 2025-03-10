@@ -18,5 +18,6 @@
       "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/BoundaryCurve.json"
     }, {
       "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Arc.json"
-    }]
+    }],
+  "required" : ["_t"]
 }

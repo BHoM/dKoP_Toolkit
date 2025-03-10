@@ -8,5 +8,6 @@
       "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Circle.json"
     }, {
       "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/BoundaryCurve.json"
-    }]
+    }],
+  "required" : ["_t"]
 }
