@@ -1,9 +1,38 @@
 {
   "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/IPolyCurve.json",
-  "oneOf" : [{
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/PolyCurve.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/BoundaryCurve.json"
-    }],
-  "required" : ["_t"]
+  "if" : {
+    "required" : ["_t"]
+  },
+  "then" : {
+    "allOf" : [{
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.Geometry.PolyCurve"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/PolyCurve.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.Geometry.BoundaryCurve"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/BoundaryCurve.json"
+        }
+      }]
+  },
+  "else" : {
+    "oneOf" : [{
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/PolyCurve.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/BoundaryCurve.json"
+      }]
+  }
 }

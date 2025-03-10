@@ -1,189 +1,1208 @@
 {
   "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/IdKopObject.json",
-  "oneOf" : [{
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/UpperFloor.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PitchedRoof.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PartyWall.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/InternalWall.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FlatRoof.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ExternalWall.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/QualityAndCertification.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ProductInformation.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Documentation.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Buildup.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Vibration.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ThermalPerformance.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Sustainability.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/SurfaceSpreadOfFlame.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Water.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Ventilation.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Services.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Heating.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Gas.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Electrical.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Drainage.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Data.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/RoofPerformance.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PartyWallPerformance.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WindLoad.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/SnowLoad.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Loading.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/InternalWallPerformance.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ImpactSoundInsulation.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FloorPerformance.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FireResistance.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Fire.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FinishesWall.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FinishesRoof.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FinishesFloor.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ExternalWallPerformance.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/EmbodiedCarbon.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Durability.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Compartmentation.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AirPermeability.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AirborneSoundInsulation.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AcousticsWallAndRoof.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AcousticsFloor.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallTopInterface.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallSideInterface.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallInterfaces.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallBaseInterface.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/TopLoadingData.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/SideLoadingData.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FloorAndRoofSideInterface.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FloorAndRoofInterfaces.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/HealthAndSafety.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallGeometry.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallDimensions.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/SettingOut.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PitchedRoofGeometry.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PitchedRoofDimensions.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ParameterPoint.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Window.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Staircase.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/OpeningPartFinish.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/LoftHatchOpening.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorFinish.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorAndWindowThermalPerformance.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorAndWindowFire.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorAndWindowAcoustics.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Door.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/InternalSpandrelPanel.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/GableEndPanel.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FloorGeometry.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FloorDimensions.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FlatRoofGeometry.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FlatRoofDimensions.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WeatherProtection.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/TransportDimensions.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/TemporaryWorks.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Procurement.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Packaging.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/LiftingPoints.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Delivery.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Cost.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Construction.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Assembly.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ProjectTeam.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ProjectIdentification.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ProductDetails.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PartIdentification.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Overview.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ManufacturerDetails.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/CrossReference.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ContactDetails.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AdministrativeInformation.json"
-    }],
-  "required" : ["_t"]
+  "if" : {
+    "required" : ["_t"]
+  },
+  "then" : {
+    "allOf" : [{
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.UpperFloor"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/UpperFloor.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.PitchedRoof"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PitchedRoof.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.PartyWall"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PartyWall.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.InternalWall"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/InternalWall.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.FlatRoof"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FlatRoof.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.ExternalWall"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ExternalWall.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.QualityAndCertification"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/QualityAndCertification.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.ProductInformation"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ProductInformation.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Documentation"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Documentation.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Buildup"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Buildup.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Vibration"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Vibration.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.ThermalPerformance"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ThermalPerformance.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Sustainability"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Sustainability.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.SurfaceSpreadOfFlame"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/SurfaceSpreadOfFlame.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Water"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Water.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Ventilation"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Ventilation.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Services"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Services.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Heating"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Heating.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Gas"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Gas.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Electrical"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Electrical.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Drainage"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Drainage.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Data"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Data.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.RoofPerformance"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/RoofPerformance.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.PartyWallPerformance"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PartyWallPerformance.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.WindLoad"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WindLoad.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.SnowLoad"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/SnowLoad.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Loading"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Loading.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.InternalWallPerformance"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/InternalWallPerformance.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.ImpactSoundInsulation"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ImpactSoundInsulation.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.FloorPerformance"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FloorPerformance.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.FireResistance"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FireResistance.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Fire"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Fire.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.FinishesWall"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FinishesWall.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.FinishesRoof"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FinishesRoof.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.FinishesFloor"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FinishesFloor.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.ExternalWallPerformance"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ExternalWallPerformance.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.EmbodiedCarbon"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/EmbodiedCarbon.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Durability"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Durability.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Compartmentation"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Compartmentation.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.AirPermeability"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AirPermeability.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.AirborneSoundInsulation"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AirborneSoundInsulation.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.AcousticsWallAndRoof"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AcousticsWallAndRoof.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.AcousticsFloor"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AcousticsFloor.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.WallTopInterface"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallTopInterface.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.WallSideInterface"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallSideInterface.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.WallInterfaces"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallInterfaces.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.WallBaseInterface"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallBaseInterface.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.TopLoadingData"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/TopLoadingData.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.SideLoadingData"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/SideLoadingData.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.FloorAndRoofSideInterface"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FloorAndRoofSideInterface.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.FloorAndRoofInterfaces"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FloorAndRoofInterfaces.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.HealthAndSafety"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/HealthAndSafety.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.WallGeometry"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallGeometry.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.WallDimensions"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallDimensions.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.SettingOut"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/SettingOut.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.PitchedRoofGeometry"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PitchedRoofGeometry.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.PitchedRoofDimensions"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PitchedRoofDimensions.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.ParameterPoint"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ParameterPoint.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Window"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Window.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Staircase"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Staircase.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.OpeningPartFinish"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/OpeningPartFinish.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.LoftHatchOpening"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/LoftHatchOpening.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.DoorFinish"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorFinish.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.DoorAndWindowThermalPerformance"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorAndWindowThermalPerformance.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.DoorAndWindowFire"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorAndWindowFire.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.DoorAndWindowAcoustics"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorAndWindowAcoustics.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Door"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Door.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.InternalSpandrelPanel"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/InternalSpandrelPanel.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.GableEndPanel"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/GableEndPanel.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.FloorGeometry"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FloorGeometry.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.FloorDimensions"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FloorDimensions.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.FlatRoofGeometry"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FlatRoofGeometry.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.FlatRoofDimensions"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FlatRoofDimensions.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.WeatherProtection"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WeatherProtection.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.TransportDimensions"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/TransportDimensions.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.TemporaryWorks"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/TemporaryWorks.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Procurement"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Procurement.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Packaging"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Packaging.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.LiftingPoints"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/LiftingPoints.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Delivery"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Delivery.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Cost"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Cost.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Construction"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Construction.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Assembly"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Assembly.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.ProjectTeam"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ProjectTeam.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.ProjectIdentification"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ProjectIdentification.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.ProductDetails"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ProductDetails.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.PartIdentification"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PartIdentification.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Overview"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Overview.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.ManufacturerDetails"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ManufacturerDetails.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.CrossReference"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/CrossReference.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.ContactDetails"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ContactDetails.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.AdministrativeInformation"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AdministrativeInformation.json"
+        }
+      }]
+  },
+  "else" : {
+    "oneOf" : [{
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/UpperFloor.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PitchedRoof.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PartyWall.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/InternalWall.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FlatRoof.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ExternalWall.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/QualityAndCertification.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ProductInformation.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Documentation.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Buildup.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Vibration.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ThermalPerformance.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Sustainability.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/SurfaceSpreadOfFlame.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Water.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Ventilation.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Services.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Heating.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Gas.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Electrical.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Drainage.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Data.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/RoofPerformance.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PartyWallPerformance.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WindLoad.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/SnowLoad.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Loading.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/InternalWallPerformance.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ImpactSoundInsulation.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FloorPerformance.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FireResistance.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Fire.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FinishesWall.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FinishesRoof.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FinishesFloor.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ExternalWallPerformance.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/EmbodiedCarbon.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Durability.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Compartmentation.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AirPermeability.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AirborneSoundInsulation.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AcousticsWallAndRoof.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AcousticsFloor.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallTopInterface.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallSideInterface.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallInterfaces.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallBaseInterface.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/TopLoadingData.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/SideLoadingData.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FloorAndRoofSideInterface.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FloorAndRoofInterfaces.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/HealthAndSafety.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallGeometry.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WallDimensions.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/SettingOut.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PitchedRoofGeometry.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PitchedRoofDimensions.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ParameterPoint.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Window.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Staircase.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/OpeningPartFinish.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/LoftHatchOpening.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorFinish.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorAndWindowThermalPerformance.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorAndWindowFire.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DoorAndWindowAcoustics.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Door.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/InternalSpandrelPanel.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/GableEndPanel.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FloorGeometry.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FloorDimensions.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FlatRoofGeometry.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/FlatRoofDimensions.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/WeatherProtection.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/TransportDimensions.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/TemporaryWorks.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Procurement.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Packaging.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/LiftingPoints.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Delivery.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Cost.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Construction.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Assembly.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ProjectTeam.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ProjectIdentification.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ProductDetails.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PartIdentification.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Overview.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ManufacturerDetails.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/CrossReference.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ContactDetails.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AdministrativeInformation.json"
+      }]
+  }
 }

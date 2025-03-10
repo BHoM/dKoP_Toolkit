@@ -1,17 +1,90 @@
 {
   "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/ISolid.json",
-  "oneOf" : [{
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Torus.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Sphere.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Cylinder.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Cuboid.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Cone.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/BoundaryRepresentation.json"
-    }],
-  "required" : ["_t"]
+  "if" : {
+    "required" : ["_t"]
+  },
+  "then" : {
+    "allOf" : [{
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.Geometry.Torus"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Torus.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.Geometry.Sphere"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Sphere.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.Geometry.Cylinder"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Cylinder.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.Geometry.Cuboid"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Cuboid.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.Geometry.Cone"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Cone.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.Geometry.BoundaryRepresentation"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/BoundaryRepresentation.json"
+        }
+      }]
+  },
+  "else" : {
+    "oneOf" : [{
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Torus.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Sphere.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Cylinder.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Cuboid.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Cone.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/BoundaryRepresentation.json"
+      }]
+  }
 }

@@ -1,9 +1,38 @@
 {
   "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/IWallOpening.json",
-  "oneOf" : [{
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Window.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Door.json"
-    }],
-  "required" : ["_t"]
+  "if" : {
+    "required" : ["_t"]
+  },
+  "then" : {
+    "allOf" : [{
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Window"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Window.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.dKoP.Door"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Door.json"
+        }
+      }]
+  },
+  "else" : {
+    "oneOf" : [{
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Window.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Door.json"
+      }]
+  }
 }

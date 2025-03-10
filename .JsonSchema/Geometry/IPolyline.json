@@ -1,9 +1,38 @@
 {
   "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/IPolyline.json",
-  "oneOf" : [{
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Polyline.json"
-    }, {
-      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Polygon.json"
-    }],
-  "required" : ["_t"]
+  "if" : {
+    "required" : ["_t"]
+  },
+  "then" : {
+    "allOf" : [{
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.Geometry.Polyline"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Polyline.json"
+        }
+      }, {
+        "if" : {
+          "properties" : {
+            "_t" : {
+              "const" : "BH.oM.Geometry.Polygon"
+            }
+          }
+        },
+        "then" : {
+          "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Polygon.json"
+        }
+      }]
+  },
+  "else" : {
+    "oneOf" : [{
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Polyline.json"
+      }, {
+        "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/Geometry/Polygon.json"
+      }]
+  }
 }
