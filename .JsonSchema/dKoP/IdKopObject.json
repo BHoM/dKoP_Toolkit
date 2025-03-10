@@ -1,7 +1,8 @@
 {
   "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/IdKopObject.json",
   "if" : {
-    "required" : ["_t"]
+    "required" : ["_t"],
+    "description" : "If a type discirminator (_t) has been set, use that to find the type to validate against."
   },
   "then" : {
     "allOf" : [{
@@ -1016,7 +1017,8 @@
         "then" : {
           "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AdministrativeInformation.json"
         }
-      }]
+      }],
+    "description" : "All of with If-then acts as a switch-case based on the value of _t. Switched based on the type defined."
   },
   "else" : {
     "oneOf" : [{
@@ -1203,6 +1205,7 @@
         "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/ContactDetails.json"
       }, {
         "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/AdministrativeInformation.json"
-      }]
+      }],
+    "description" : "For case of no type-discriminator defined, the data is matched based on a oneOff pattern. This can for edgecases give errors if two classes mapped in here share the exact same properties."
   }
 }
