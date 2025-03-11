@@ -4,8 +4,7 @@
   "type" : "object",
   "properties" : {
     "PartName" : {
-      "type" : "string",
-      "enum" : ["WallInternal", "WallExternal", "WallParty", "Partition", "FloorUpper", "RoofPitched", "RoofFlat", "Truss", "Ceiling", "StairInternal", "StairExternal"]
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/PartName.json"
     },
     "PathReference" : {
       "type" : "string"
@@ -14,11 +13,10 @@
       "type" : "string"
     },
     "DFMACategory" : {
-      "type" : "string",
-      "enum" : ["One", "Two", "Three", "Five"]
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/DFMACategory.json"
     },
     "_t" : {
-      "description" : "Optional Type descriminator for BHoM type.",
+      "description" : "Optional Type discirminator for BHoM type.",
       "type" : "string",
       "const" : "BH.oM.dKoP.Overview"
     },

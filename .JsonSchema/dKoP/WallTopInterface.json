@@ -4,14 +4,13 @@
   "type" : "object",
   "properties" : {
     "InterfaceType" : {
-      "type" : "string",
-      "enum" : ["Unknown", "UpperFloor", "FlatRoof", "PitchedRoof"]
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/TopInterfaceType.json"
     },
     "LoadingData" : {
       "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/TopLoadingData.json"
     },
     "_t" : {
-      "description" : "Optional Type descriminator for BHoM type.",
+      "description" : "Optional Type discirminator for BHoM type.",
       "type" : "string",
       "const" : "BH.oM.dKoP.WallTopInterface"
     },

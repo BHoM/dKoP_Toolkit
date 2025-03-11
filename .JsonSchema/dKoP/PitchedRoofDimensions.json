@@ -10,8 +10,7 @@
       "type" : "number"
     },
     "Pitch" : {
-      "type" : "string",
-      "enum" : ["Unknown", "Deg35", "Deg40", "Deg45"]
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Pitch.json"
     },
     "Overhang" : {
       "type" : "number"
@@ -30,7 +29,7 @@
       "type" : "boolean"
     },
     "_t" : {
-      "description" : "Optional Type descriminator for BHoM type.",
+      "description" : "Optional Type discirminator for BHoM type.",
       "type" : "string",
       "const" : "BH.oM.dKoP.PitchedRoofDimensions"
     },

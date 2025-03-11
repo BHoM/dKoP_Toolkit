@@ -1,4 +1,5 @@
 {
+  "$id" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/TopInterfaceType.json",
   "type" : "string",
   "enum" : ["Unknown", "UpperFloor", "FlatRoof", "PitchedRoof"]
 }

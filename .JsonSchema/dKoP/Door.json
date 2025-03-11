@@ -34,12 +34,10 @@
       "type" : "string"
     },
     "ArchitraveSpecification" : {
-      "type" : "string",
-      "enum" : ["Unknown", "Ogee", "Square", "Rounded", "None"]
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Architrave.json"
     },
     "DirectionOfOpening" : {
-      "type" : "string",
-      "enum" : ["Unknown", "Left", "Right", "Up", "Down"]
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/Direction.json"
     },
     "FinishesStyleAndOpeningDirection" : {
       "type" : "string"
@@ -48,7 +46,7 @@
       "type" : "string"
     },
     "_t" : {
-      "description" : "Optional Type descriminator for BHoM type.",
+      "description" : "Optional Type discirminator for BHoM type.",
       "type" : "string",
       "const" : "BH.oM.dKoP.Door"
     },

@@ -4,15 +4,13 @@
   "type" : "object",
   "properties" : {
     "FinishMaterial" : {
-      "type" : "string",
-      "enum" : ["Unknown", "Timber", "Metal", "Stone", "Brick", "Painted"]
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/OpeningFinishMaterial.json"
     },
     "Colour" : {
-      "type" : "string",
-      "enum" : ["Name", "RAL"]
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/OpeningColour.json"
     },
     "_t" : {
-      "description" : "Optional Type descriminator for BHoM type.",
+      "description" : "Optional Type discirminator for BHoM type.",
       "type" : "string",
       "const" : "BH.oM.dKoP.OpeningPartFinish"
     },

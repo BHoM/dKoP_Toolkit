@@ -7,11 +7,10 @@
       "type" : "integer"
     },
     "OutdoorCorrosivityCategory" : {
-      "type" : "string",
-      "enum" : ["Undefined", "C1_VeryLow", "C2_Low", "C3_Medium", "C4_High", "C5_VeryHigh", "CX_Extreme"]
+      "$ref" : "https://raw.githubusercontent.com/BHoM/dKoP_Toolkit/TestSchema/.JsonSchema/dKoP/CorrosivityCategory.json"
     },
     "_t" : {
-      "description" : "Optional Type descriminator for BHoM type.",
+      "description" : "Optional Type discirminator for BHoM type.",
       "type" : "string",
       "const" : "BH.oM.dKoP.Durability"
     },
