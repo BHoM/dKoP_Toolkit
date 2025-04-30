@@ -6,7 +6,7 @@ using BH.oM.Geometry;
 
 namespace BH.oM.dKoP
 {
-    public interface IFloorAndRoofOpening : IdKopObject
+    public interface IFloorAndRoofOpening : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

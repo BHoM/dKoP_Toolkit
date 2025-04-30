@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BH.oM.dKoP
 {
-    public class CrossReference : IdKopObject
+    public class CrossReference : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

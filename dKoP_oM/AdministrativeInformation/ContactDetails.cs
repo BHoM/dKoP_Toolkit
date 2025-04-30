@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BH.oM.dKoP
 {
-    public class ContactDetails : IdKopObject
+    public class ContactDetails : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

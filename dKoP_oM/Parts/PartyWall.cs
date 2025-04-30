@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BH.oM.dKoP
 {
-    public class PartyWall : IdKopObject
+    public class PartyWall : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

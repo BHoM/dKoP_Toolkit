@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BH.oM.dKoP
 {
-    public class QualityAndCertification : IdKopObject
+    public class QualityAndCertification : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

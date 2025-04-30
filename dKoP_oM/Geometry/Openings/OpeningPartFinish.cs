@@ -7,7 +7,7 @@ using BH.oM.Geometry;
 
 namespace BH.oM.dKoP
 {
-    public class OpeningPartFinish : IdKopObject
+    public class OpeningPartFinish : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

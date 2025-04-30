@@ -5,7 +5,7 @@ using BH.oM.Quantities.Attributes;
 
 namespace BH.oM.dKoP
 {
-    public class Gas : IdKopObject
+    public class Gas : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

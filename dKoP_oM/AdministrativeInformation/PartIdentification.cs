@@ -6,7 +6,7 @@ using System.Xml;
 
 namespace BH.oM.dKoP
 {
-    public class PartIdentification : IdKopObject
+    public class PartIdentification : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

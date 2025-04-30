@@ -5,7 +5,7 @@ using BH.oM.Quantities.Attributes;
 
 namespace BH.oM.dKoP
 {
-    public class LiftingPoints : IdKopObject
+    public class LiftingPoints : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

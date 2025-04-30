@@ -5,7 +5,7 @@ using BH.oM.Quantities.Attributes;
 
 namespace BH.oM.dKoP
 {
-    public class Sustainability : IdKopObject
+    public class Sustainability : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BH.oM.dKoP
 {
-    public interface IdKopObject : IObject
+    public interface IdKoPObject : IObject
     {
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BH.oM.dKoP
 {
-    public class SideLoadingData : IdKopObject
+    public class SideLoadingData : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

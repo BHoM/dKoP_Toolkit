@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BH.oM.dKoP
 {
-    public class PitchedRoof : IdKopObject
+    public class PitchedRoof : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

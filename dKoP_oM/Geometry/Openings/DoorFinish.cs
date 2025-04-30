@@ -7,7 +7,7 @@ using BH.oM.Geometry;
 
 namespace BH.oM.dKoP
 {
-    public class DoorFinish : IdKopObject
+    public class DoorFinish : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

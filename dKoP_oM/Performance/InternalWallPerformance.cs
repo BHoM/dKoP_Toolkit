@@ -6,7 +6,7 @@ using BH.oM.Quantities.Attributes;
 
 namespace BH.oM.dKoP
 {
-    public class InternalWallPerformance : IdKopObject
+    public class InternalWallPerformance : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

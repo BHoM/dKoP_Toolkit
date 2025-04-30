@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace BH.oM.dKoP
 {
-    public class PitchedRoofDimensions : IdKopObject
+    public class PitchedRoofDimensions : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BH.oM.dKoP
 {
-    public class TopLoadingData : IdKopObject
+    public class TopLoadingData : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

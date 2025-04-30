@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BH.oM.dKoP
 {
-    public class Buildup : IdKopObject
+    public class Buildup : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

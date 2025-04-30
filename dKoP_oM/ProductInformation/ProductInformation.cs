@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BH.oM.dKoP
 {
-    public class ProductInformation : IdKopObject
+    public class ProductInformation : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

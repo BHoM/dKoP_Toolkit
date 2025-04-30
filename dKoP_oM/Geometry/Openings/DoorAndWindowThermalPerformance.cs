@@ -7,7 +7,7 @@ using BH.oM.Geometry;
 
 namespace BH.oM.dKoP
 {
-    public class DoorAndWindowThermalPerformance : IdKopObject
+    public class DoorAndWindowThermalPerformance : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

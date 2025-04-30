@@ -6,7 +6,7 @@ using BH.oM.Quantities.Attributes;
 
 namespace BH.oM.dKoP
 {
-    public class ImpactSoundInsulation : IdKopObject
+    public class ImpactSoundInsulation : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

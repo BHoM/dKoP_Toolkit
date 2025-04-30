@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BH.oM.dKoP
 {
-    public class WallDimensions : IdKopObject
+    public class WallDimensions : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

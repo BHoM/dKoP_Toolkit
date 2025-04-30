@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BH.oM.dKoP
 {
-    public class AcousticsFloor : IdKopObject
+    public class AcousticsFloor : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BH.oM.dKoP
 {
-    public class InternalSpandrelPanel : IdKopObject
+    public class InternalSpandrelPanel : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

@@ -29,7 +29,7 @@ using System.ComponentModel;
 namespace BH.oM.dKoP
 {
     [Description("")]
-    public class FinishesFloor : IdKopObject
+    public class FinishesFloor : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/

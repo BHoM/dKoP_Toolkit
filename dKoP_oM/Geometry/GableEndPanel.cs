@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BH.oM.dKoP
 {
-    public class GableEndPanel : IdKopObject
+    public class GableEndPanel : IdKoPObject
     {
         /***************************************************/
         /**** Properties                                ****/
