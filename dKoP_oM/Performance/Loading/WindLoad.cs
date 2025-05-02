@@ -11,6 +11,7 @@ namespace BH.oM.dKoP
         /**** Properties                                ****/
         /***************************************************/
 
+        [Pressure]
         public virtual double PeakPressure { get; set; }
 
         /***************************************************/

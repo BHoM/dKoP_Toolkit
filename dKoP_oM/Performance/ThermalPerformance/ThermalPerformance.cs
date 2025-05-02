@@ -11,6 +11,7 @@ namespace BH.oM.dKoP
         /**** Properties                                ****/
         /***************************************************/
 
+        [ThermalTransmittance]
         public virtual double UValue { get; set; }
 
         public virtual string Documentation { get; set; }

@@ -11,6 +11,7 @@ namespace BH.oM.dKoP
         /**** Properties                                ****/
         /***************************************************/
 
+        [BH.oM.Quantities.Attributes.AirPermeability]
         public virtual double Permeability { get; set; }
 
         public virtual string Documentation { get; set; }

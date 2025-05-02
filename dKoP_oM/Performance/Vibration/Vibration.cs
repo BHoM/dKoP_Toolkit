@@ -12,9 +12,10 @@ namespace BH.oM.dKoP
         /**** Properties                                ****/
         /***************************************************/
 
-        //TODO: Add quantity
+        [Frequency]
         public virtual double VibrationResponse { get; set; }
 
+        [Ratio]
         public virtual double ResponseFactor { get; set; }
 
         /***************************************************/

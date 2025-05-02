@@ -12,7 +12,7 @@ namespace BH.oM.dKoP
         /**** Properties                                ****/
         /***************************************************/
 
-        //TODO: Add quantity
+        [WeightedSoundReductionIndex]
         public virtual double WeightedStandardisedImpactSoundPressureLevelAndSpectrumAdaptionFactorLnTwCtr { get; set; } = 40;
 
         public virtual string Documentation { get; set; } = "";

@@ -11,8 +11,10 @@ namespace BH.oM.dKoP
         /**** Properties                                ****/
         /***************************************************/
 
+        [Pressure]
         public virtual double SelfWeight { get; set; }
 
+        [Pressure]
         public virtual double VariableLoad { get; set; }
 
         public virtual WindLoad WindLoad { get; set; } = new WindLoad();

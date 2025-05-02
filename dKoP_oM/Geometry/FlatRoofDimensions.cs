@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BH.oM.Quantities.Attributes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Security.Principal;
@@ -13,14 +14,19 @@ namespace BH.oM.dKoP
         /**** Properties                                ****/
         /***************************************************/
 
+        [Length]
         public virtual double Width { get; set; }
 
+        [Length]
         public virtual double Length { get; set; }
 
+        [Length]
         public virtual double Fall { get; set; }
 
+        [Length]
         public virtual double Overhang { get; set; }
 
+        [Length]
         [Description("Overall buildup.")]
         public virtual double HeightAtFascia { get; set; }
 
