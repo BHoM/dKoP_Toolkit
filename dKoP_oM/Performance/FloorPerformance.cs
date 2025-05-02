@@ -1,0 +1,58 @@
+/*
+ * This file is part of the Buildings and Habitats object Model (BHoM)
+ * Copyright (c) 2015 - 2025, the respective contributors. All rights reserved.
+ *
+ * Each contributor holds copyright over their respective contributions.
+ * The project versioning (Git) records all such contribution source information.
+ *                                           
+ *                                                                              
+ * The BHoM is free software: you can redistribute it and/or modify         
+ * it under the terms of the GNU Lesser General Public License as published by  
+ * the Free Software Foundation, either version 3.0 of the License, or          
+ * (at your option) any later version.                                          
+ *                                                                              
+ * The BHoM is distributed in the hope that it will be useful,              
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of               
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the                 
+ * GNU Lesser General Public License for more details.                          
+ *                                                                            
+ * You should have received a copy of the GNU Lesser General Public License     
+ * along with this code. If not, see <https://www.gnu.org/licenses/lgpl-3.0.html>.      
+ */
+
+using System;
+using System.Collections.Generic;
+using System.Reflection;
+using System.Text;
+using BH.oM.Quantities.Attributes;
+
+namespace BH.oM.dKoP
+{
+    public class FloorPerformance : IdKoPObject
+    {
+        /***************************************************/
+        /**** Properties                                ****/
+        /***************************************************/
+
+        public virtual Sustainability Sustainability { get; set; } = new Sustainability();
+
+        public virtual Durability Durability { get; set; } = new Durability();
+
+        public virtual AcousticsFloor Acoustics { get; set; } = new AcousticsFloor();
+
+        public virtual Fire Fire { get; set; } = new Fire();
+
+        public virtual Compartmentation Compartmentation { get; set; } = new Compartmentation();
+
+        public virtual Loading Loading { get; set; } = new Loading();
+
+        public virtual Vibration Vibration { get; set; } = new Vibration();
+
+        public virtual Services Services { get; set; } = new Services();
+
+        public virtual FinishesRoof Finishes { get; set; } = new FinishesRoof();
+
+        public virtual string AdditionalFeatures { get; set; } = "";
+        /***************************************************/
+    }
+}
